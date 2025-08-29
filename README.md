@@ -148,4 +148,19 @@ http://localhost:8080/RestAPIExample/rest/home/post → POST
 http://localhost:8080/RestAPIExample/rest/home/put → PUT
 http://localhost:8080/RestAPIExample/rest/home/delete → DELETE
 
+4 continue 
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         version="3.0">
+    <servlet>
+        <servlet-name>Jersey REST Service</servlet-name>
+        <servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+        <init-param>
+            <param-name>jersey.config.server.provider.packages</param-name>
+            <param-value>com.api</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    </web-app>
+
+
 
