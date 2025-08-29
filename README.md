@@ -134,6 +134,8 @@ In src/main/webapp/WEB-INF/web.xml:
     </servlet-mapping>
 </web-app>
 
+
+
 5. Run on Tomcat
 Make sure you’ve added Tomcat server in Eclipse (via Window → Preferences → Server → Runtime Environments).
 Right-click project → Run As → Run on Server.
